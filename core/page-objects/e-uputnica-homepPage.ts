@@ -7,12 +7,12 @@ const dataFilePath = path.resolve(__dirname, "../data/data.json");
 const testData = JSON.parse(readFileSync(dataFilePath, "utf8"));
 
 
-
 export class UputnicaHome extends BasePage {
     constructor(driver: WebDriver) {
         super(driver);
     }
-
+    
+    //TEST 1: Functional test - navigate to eUPUTNICA page and search for eUPUTNICA number
     //private variables for elements
     private searchInput = By.className("search-input");
     private searchButton = By.xpath("/html/body/div[2]/div/div[4]/nav/div[1]/div[3]/button");
@@ -44,7 +44,6 @@ export class UputnicaHome extends BasePage {
 
     }
     
-
     // Combined method to perform search action
     async performSearch() {
         await this.searchForEUPutnica();

@@ -1,6 +1,14 @@
 {
     "url": "https://kcus-euputnica.ezoblak.ba/pretraga",
-    "euputnica_number":"sssssss"
+    "euputnica_number":"sssssss",
+    "url2":"https://kcus-euputnica.ezoblak.ba/lista-cekanja",
+    
+    "rfzo_klinicki_beograd":{
+        "url": "https://www.rfzo.rs/intervencije.php?ustanovaID=311",
+        "username": "username",
+        "password": "password"
+
+    }
     
 
 
